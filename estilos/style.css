@@ -1,0 +1,649 @@
+main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-image: url("../pexels-mahima-518693-1250260.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+
+
+
+/* HEADER */
+
+.header {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+
+}
+
+
+.header__nav__one {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.header__nav__two {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #133222;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    transform: translateY(-100%);
+}
+
+.logo {
+    height: 40px;
+
+}
+
+.header__ul {
+    display: flex;
+    list-style: none;
+}
+
+.header__li {
+    margin: 0px 10px;
+}
+
+.header__li a {
+    text-decoration: none;
+    color: white;
+    font-family: "1";
+    font-weight: 500;
+    font-size: small;
+}
+
+.header__li a:hover {
+
+    border-bottom: 2px solid #ef8937;
+
+
+}
+
+
+
+
+
+
+
+.subtitulo {
+    text-align: center;
+    padding: 60px 0px;
+    background-color: #133222a2;
+    color: white;
+    margin: 0;
+
+}
+
+
+
+
+.aditional {
+    height: 100vh;
+
+}
+
+.img-caroucel {
+    height: 100vh;
+    animation-name: scale;
+    animation-duration: 15s;
+
+}
+
+.carousel-item {
+    position: relative;
+
+}
+
+
+
+
+.textos {
+    background-color: rgba(0, 0, 0, 0.548);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 300px 100px;
+
+}
+
+.contenedor-botones {
+    display: flex;
+    width: 300px;
+
+    justify-content: space-between;
+}
+
+.boton-slider {
+
+    margin-right: 10px;
+    padding: 10px 0px;
+    border-bottom: solid 1px #ef8937;
+    font-family: "1";
+    font-weight: 500;
+}
+
+
+
+
+.contenedor-general {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.contenedor-acordeon {
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    background-color: red;
+
+}
+
+.lista {
+    list-style: none;
+    width: 200%;
+    display: flex;
+    margin: auto;
+    padding: 0;
+
+}
+
+.item {
+    overflow: hidden;
+}
+
+
+
+#anterior {
+    z-index: 0;
+    max-width: 150px;
+
+}
+
+
+#siguiente {
+    z-index: 0;
+
+    max-width: 150px;
+}
+
+/* .textos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 0px;
+} */
+
+
+.over {
+
+    width: 700px;
+    overflow: hidden;
+}
+
+
+.titulo-1 {
+    padding: 0;
+    margin: 0;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.hei {
+    height: 150px;
+}
+
+.titulo-2 {
+    color: white;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    padding: 0;
+    margin-left: 100px;
+
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+
+.detalles-texto {
+    display: flex;
+    color: white;
+    justify-content: start;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+    height: 50px;
+    margin-left: 100px;
+    font-family: "1";
+    font-weight: bolder;
+
+}
+
+.detalles-texto p {
+    margin: 0px 10px;
+}
+
+
+.img-1 {
+    width: 100%;
+
+}
+
+.prueba {}
+
+
+.contacto-slider {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 50px;
+    height: 100px;
+
+    align-items: center;
+}
+
+.redes-slider {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.redes-slider img {
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.contacto-slider p {
+    color: white;
+    margin: 0;
+}
+
+/*BOTON WTS */
+
+.contenedor-wts {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0px 20px 20px 0px;
+    background-color: white;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+
+/* FRASE */
+
+.contenedor-frase {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #133222;
+}
+
+.frase {
+    font-size: 30px;
+    color: white;
+}
+
+
+.contacto-wts {
+    height: 50px;
+}
+
+
+/* NUMEROS */
+
+.section-numeros{
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.container-numeros {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 200px 24px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.card-numeros {
+    background-color: #133222;
+    width: 20%;
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(187, 187, 187);
+}
+
+
+.icono-numeros {
+    width: 70px;
+}
+
+.contenedor-textoss {
+
+    text-align: center;
+}
+
+.texto-numeros {
+    color: white;
+    font-size: larger;
+    font-family: "1";
+    font-weight: bold;
+}
+
+.numeros {
+    color: white;
+    font-size: 50px;
+    font-family: "1";
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  CATEGORIAS */
+
+.section-categorias {
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 100px 0px;
+}
+
+.contenedor-categorias {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 1;
+
+
+}
+
+
+#categoria-1 {
+    background-image: url("../pexels-jakubzerdzicki-29557687.jpg");
+}
+
+#categoria-2 {
+    background-image: url("../pexels-pixabay-273209.jpg");
+}
+
+#categoria-3 {
+    background-image: url("../pexels-michaelgaultphotos-5587962.jpg");
+}
+
+.contenedor-categoria {
+    width: 35%;
+    text-align: center;
+
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.contenedor-data-categoria {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 100%;
+
+}
+
+.logo-categoria {
+    width: 80px;
+    margin: 10px 0px;
+
+}
+
+.contenedor-data-categoria p {
+    color: white;
+    font-family: "1";
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    width: 80%;
+}
+
+
+
+
+
+/* MAPA */
+
+.contenedor-mapa {
+    width: 100%;
+    margin: 0px auto;
+    padding: 40px 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+
+}
+
+
+.mapa {
+    max-width: 1200px;
+    width: 100%;
+    border: 2px solid #133222;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .container {
+        padding: 16px;
+    }
+
+    .header-numeros h1 {
+        font-size: 1.5rem;
+    }
+
+    .job-number {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+@keyframes slide {
+    0% {
+        margin-left: 100%;
+        border-right: 3px solid white;
+
+    }
+
+    100% {
+        margin-left: 0;
+        transition: all 1s;
+        border-right: 0;
+
+    }
+
+}
+
+@keyframes second {
+    0% {
+        margin-left: 100%;
+        border-right: 3px solid white;
+
+
+    }
+
+
+    100% {
+        margin-left: 100px;
+        border-right: 3px solid white;
+
+    }
+
+}
+
+@keyframes scale {
+
+    100% {
+        transform: scale(1.5);
+    }
+
+
+}
+
+@keyframes down {
+    0% {
+        padding-top: 50px;
+
+    }
+
+    40% {
+        padding-top: 50px;
+
+    }
+
+
+    100% {
+        padding-top: 0;
+
+    }
+
+}
+
+@keyframes in {
+    0% {
+        transform: translate3d(0, -100%, 0)
+    }
+
+    100% {
+        transform: translate3d(0, 100%, 100%)
+    }
+}
+
+@keyframes out {
+    0% {
+        transform: translateY(10%)
+    }
+
+    100% {
+        transform: translate3d(0, -100%, 0)
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes x {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@font-face {
+    font-family: "1";
+    src: url("../Montserrat/Montserrat-VariableFont_wght.ttf");
+}
