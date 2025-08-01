@@ -333,18 +333,21 @@ main {
     color: white;
     font-family: "1";
     font-size: xx-large;
-    padding: 0px 5px;
+    padding: 5px 5px;
+    border-bottom: #ef8937 2px solid;
 }
 .sub-2{
-    color: #ef8937;
+    color: white;
+    border-bottom: #ef8937 2px solid;
     font-family: "1";
     font-size: xx-large;
-    padding: 0px 5px;
+    padding: 5px 5px;
+
 }
 /* NUMEROS */
 
 .contenedor-titulos{
-    background-color: #133222;
+    background-color: #133222ce;
     display: flex;
     justify-content: center;
     padding: 50px 0px;
