@@ -123,7 +123,7 @@ main {
     top: 0;
     display: flex;
     align-items: flex-end;
-    padding: 0 0 300px 100px;
+    padding: 0 0 150px 50px;
 
 }
 
@@ -329,12 +329,31 @@ main {
     height: 50px;
 }
 
-
+.sub-1{
+    color: white;
+    font-family: "1";
+    font-size: xx-large;
+    padding: 0px 5px;
+}
+.sub-2{
+    color: #ef8937;
+    font-family: "1";
+    font-size: xx-large;
+    padding: 0px 5px;
+}
 /* NUMEROS */
 
-.section-numeros{
-    background-color: rgba(0, 0, 0, 0.295);
+.contenedor-titulos{
+    background-color: #133222;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
 }
+
+.section-numeros{
+    background-color: rgba(0, 0, 0, 0.532);
+}
+
 
 .container-numeros {
     margin: 0 auto;
@@ -400,7 +419,7 @@ main {
 /*  CATEGORIAS */
 
 .section-categorias {
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.532);
     padding: 100px 0px;
 }
 
@@ -476,7 +495,7 @@ main {
     margin: 0px auto;
     padding: 40px 0px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.532);
 
 }
 
