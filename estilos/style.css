@@ -3,8 +3,8 @@ main {
     margin: 0;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-image: url("../pexels-mahima-518693-1250260.jpg");
-    background-position: right;
+    background-image: url("../pexels-kelianpfl-7393067.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -312,11 +312,22 @@ main {
 
 /* FRASE */
 
+
+.section-frase{
+    background-color: rgba(0, 0, 0, 0.532);
+    padding: 50px 0px;
+}
 .contenedor-frase {
     display: flex;
     justify-content: space-around;
     padding: 50px;
-    background-color: #133222;
+    color: white;
+}
+
+.contenedor-frase p {
+    font-size: xx-large;
+    font-family: "1";
+    font-weight: bold;
 }
 
 .frase {
@@ -331,16 +342,19 @@ main {
 
 .sub-1{
     color: white;
-    font-family: "1";
-    font-size: xx-large;
-    padding: 5px 5px;
+    font-family: "2";
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 15px 5px;
     border-bottom: #ef8937 2px solid;
+    border-top: #ef8937 2px solid;
 }
 .sub-2{
     color: white;
     border-bottom: #ef8937 2px solid;
     font-family: "1";
-    font-size: xx-large;
+    font-size: 20px;
     padding: 5px 5px;
 
 }
@@ -431,7 +445,6 @@ main {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-
     border-radius: 30px;
     overflow: hidden;
     z-index: 1;
@@ -668,4 +681,8 @@ main {
 @font-face {
     font-family: "1";
     src: url("../Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "2";
+    src: url("../OpenSans-VariableFont_wdth\,wght.ttf");
 }
