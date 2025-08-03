@@ -384,7 +384,7 @@ main {
 }
 
 .card-numeros {
-    background-color: #133222;
+    background-color: #1332229d;
     width: 20%;
     min-width: 200px;
     max-width: 400px;
@@ -458,20 +458,30 @@ main {
 }
 
 #categoria-2 {
-    background-image: url("../pexels-pixabay-273209.jpg");
+    background-image: url("../1.jpeg");
 }
 
 #categoria-3 {
-    background-image: url("../pexels-michaelgaultphotos-5587962.jpg");
+    background-image: url("../WhatsApp\ Image\ 2025-07-31\ at\ 18.29.49.jpeg");
 }
 
+.fondo-negro{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.447);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .contenedor-categoria {
     width: 35%;
     text-align: center;
-
     background-position: center;
     background-size: cover;
     height: 500px;
+}
+
+.titulo-categoria{
+    color: white;
 }
 
 .contenedor-data-categoria {
