@@ -313,10 +313,11 @@ main {
 /* FRASE */
 
 
-.section-frase{
+.section-frase {
     background-color: rgba(0, 0, 0, 0.532);
     padding: 50px 0px;
 }
+
 .contenedor-frase {
     display: flex;
     justify-content: space-around;
@@ -340,7 +341,7 @@ main {
     height: 50px;
 }
 
-.sub-1{
+.sub-1 {
     color: white;
     font-family: "2";
     font-weight: 400;
@@ -350,7 +351,8 @@ main {
     border-bottom: #ef8937 2px solid;
     border-top: #ef8937 2px solid;
 }
-.sub-2{
+
+.sub-2 {
     color: white;
     border-bottom: #ef8937 2px solid;
     font-family: "1";
@@ -358,16 +360,17 @@ main {
     padding: 5px 5px;
 
 }
+
 /* NUMEROS */
 
-.contenedor-titulos{
+.contenedor-titulos {
     background-color: #133222ce;
     display: flex;
     justify-content: center;
     padding: 50px 0px;
 }
 
-.section-numeros{
+.section-numeros {
     background-color: rgba(0, 0, 0, 0.532);
 }
 
@@ -379,7 +382,7 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 
 }
 
@@ -465,13 +468,14 @@ main {
     background-image: url("../WhatsApp\ Image\ 2025-07-31\ at\ 18.29.49.jpeg");
 }
 
-.fondo-negro{
+.fondo-negro {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.447);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .contenedor-categoria {
     width: 35%;
     text-align: center;
@@ -480,7 +484,7 @@ main {
     height: 500px;
 }
 
-.titulo-categoria{
+.titulo-categoria {
     color: white;
     font-family: "1";
 }
@@ -527,15 +531,17 @@ main {
     background-color: rgba(0, 0, 0, 0.532);
 
 }
-.contenedor-ubciaciones{
-    background-color:#133222;
+
+.contenedor-ubciaciones {
+    background-color: #133222;
     min-width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.titulo-ubicaciones{
+
+.titulo-ubicaciones {
     color: white;
     font-size: 20px;
     border-top: 2px solid #ef8937;
@@ -543,24 +549,24 @@ main {
     padding: 10px 0px;
 }
 
-.lista-ubicaciones{
+.lista-ubicaciones {
     list-style: none;
     text-align: start;
 }
 
-.ubicaciones{
+.ubicaciones {
     margin: 30px 0px;
     color: white;
     font-family: "1";
 }
 
-.ubicaciones:hover{
-    color:#ef8937;
+.ubicaciones:hover {
+    color: #ef8937;
     transition: all .5s;
     cursor: pointer;
 }
 
-.focus{
+.focus {
     color: #ef8937;
 }
 
@@ -571,7 +577,50 @@ main {
 }
 
 
+/* SECCION DE CONTACTO*/
 
+.section-contacto {
+
+    background-color: #133222;
+}
+
+.contenedor-contacto {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+.contenedor-formulario {
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.contenedor-horarios {
+    background-color: blue;
+    width: 30%;
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-horarios p {
+    color: white;
+}
+
+.contenedor-logo-nombre {
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+.contenedor-formulario {
+    width: 30%;
+}
 
 
 
@@ -730,6 +779,7 @@ main {
     font-family: "1";
     src: url("../Montserrat/Montserrat-VariableFont_wght.ttf");
 }
+
 @font-face {
     font-family: "2";
     src: url("../OpenSans-VariableFont_wdth\,wght.ttf");
