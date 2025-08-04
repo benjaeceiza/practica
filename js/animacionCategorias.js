@@ -29,7 +29,7 @@
 
  categoriaOne.onmouseenter = () => agrandar(categoriaOne,dataOne,fraseOne)
  categoriaOne.onmouseleave = () => achicar(categoriaOne,dataOne,fraseOne)
- categoriaTwo.onmouseenter = () => agrandar(categoriaTwo,dataTwo)
- categoriaTwo.onmouseleave = () => achicar(categoriaTwo,dataTwo)
- categoriaThree.onmouseenter = () => agrandar(categoriaThree,dataThree)
- categoriaThree.onmouseleave = () => achicar(categoriaThree,dataThree)
+ categoriaTwo.onmouseenter = () => agrandar(categoriaTwo,dataTwo,fraseTwo)
+ categoriaTwo.onmouseleave = () => achicar(categoriaTwo,dataTwo,fraseTwo)
+ categoriaThree.onmouseenter = () => agrandar(categoriaThree,dataThree,fraseThree)
+ categoriaThree.onmouseleave = () => achicar(categoriaThree,dataThree,fraseThree)

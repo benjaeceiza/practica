@@ -482,6 +482,7 @@ main {
 
 .titulo-categoria{
     color: white;
+    font-family: "1";
 }
 
 .contenedor-data-categoria {
@@ -517,14 +518,51 @@ main {
 /* MAPA */
 
 .contenedor-mapa {
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin: 0px auto;
-    padding: 40px 0px;
+    padding: 150px 0px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.532);
 
 }
+.contenedor-ubciaciones{
+    background-color:#133222;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.titulo-ubicaciones{
+    color: white;
+    font-size: 20px;
+    border-top: 2px solid #ef8937;
+    border-bottom: 2px solid #ef8937;
+    padding: 10px 0px;
+}
 
+.lista-ubicaciones{
+    list-style: none;
+    text-align: start;
+}
+
+.ubicaciones{
+    margin: 30px 0px;
+    color: white;
+    font-family: "1";
+}
+
+.ubicaciones:hover{
+    color:#ef8937;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.focus{
+    color: #ef8937;
+}
 
 .mapa {
     max-width: 1200px;
