@@ -581,7 +581,7 @@ main {
 
 .section-contacto {
 
-    background-color: #133222;
+    background-color: #133222d0;
 }
 
 .contenedor-contacto {
@@ -589,28 +589,72 @@ main {
     margin: auto;
     display: flex;
     justify-content: space-around;
-    padding: 100px 0px;
+    align-items: center;
+    padding: 50px 0px 100px 0px;
 }
 
 .contenedor-formulario {
     max-width: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
+    justify-content: space-between;
+
+}
+
+.input {
+    width: 45%;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    font-size: small;
+    padding-left: 5px;
+    font-family: "2";
+ 
+}
+
+.mensaje {
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 0;
+    height: 60px;
+    font-size: small;
+    padding-left: 5px;
+}
+
+.button-formulario {
+    margin: auto;
+    border: 1px solid #ef8937;
+    background-color: #133222;
+    color: white;
+    font-size: small;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+
 }
 
 .contenedor-horarios {
-    background-color: blue;
-    width: 30%;
-   align-items: center;
+    width: 30%; 
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.contenedor-horarios p {
+.title-horario{
     color: white;
+    font-size: larger;
+    font-family: "1";
+    font-weight: bold;
 }
+
+.texto-horario{
+  color: white;
+  font-weight: bold;
+}
+
 
 .contenedor-logo-nombre {
     width: 30%;
@@ -618,13 +662,48 @@ main {
     color: white;
 }
 
+.contenedor-logo-nombre p {
+    font-family: "1";
+    font-weight: bolder;
+}
+
 .contenedor-formulario {
     width: 30%;
 }
 
 
+/* FOOTER */
 
 
+.footer{
+    width: 100%;
+    background-color: #133222;
+    border-top: 1px solid rgba(255, 255, 255, 0.466);
+    margin: 0;
+    padding: 0;
+}
+
+.footer-lista{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin:  10px auto;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+
+.img-footer{
+    height: 22px;
+}
+
+.derechos{
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
 
 
 
