@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 .main {
@@ -18,7 +19,7 @@
 
 }
 
-.fondo-negrito{
+.fondo-negrito {
     background-color: rgba(0, 0, 0, 0.507);
 }
 
@@ -72,9 +73,7 @@
     transform: translateY(-100%);
 }
 
-.apa {
-    align-items: center;
-}
+
 
 .logo {
     height: 40px;
@@ -787,7 +786,7 @@
 .section-proyectos {
     display: flex;
     width: 100%;
-    margin:  50px auto;
+    margin: 50px auto;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -805,8 +804,8 @@
     min-width: 200px;
 }
 
-.card-proyecto:hover{
-
+.center {
+    align-items: center;
 }
 
 .contenedor-data {
@@ -820,11 +819,11 @@
 
 }
 
-.contenedor-data:hover{
+.contenedor-data:hover {
     transition: .3s;
-     background-color: rgba(0, 0, 0, 0.678);
-     cursor: pointer;
-   
+    background-color: rgba(0, 0, 0, 0.678);
+    cursor: pointer;
+
 }
 
 .img-card-desarrollo {
@@ -868,18 +867,21 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #card-proyecto-6 {
     background-image: url("../WhatsApp\ Image\ 2025-07-30\ at\ 12.38.09.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #card-proyecto-7 {
     background-image: url("../WhatsApp\ Image\ 2025-08-08\ at\ 09.07.03.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #card-proyecto-8 {
     background-image: url("../WhatsApp\ Image\ 2025-08-08\ at\ 09.12.39.jpeg");
     background-position: center;
@@ -894,7 +896,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
+
     height: 100vh;
 }
 
@@ -940,7 +942,7 @@
 .title-modelo {
     font-size: 120px;
     color: rgb(204, 204, 204);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
     letter-spacing: 5px;
     margin-top: 30px;
@@ -980,22 +982,21 @@
     padding: 10px 0px;
 }
 
-.carousel-control-next{
-   
-}
+.carousel-control-next {}
 
-.girar{
+.girar {
     transform: rotateZ(270deg);
     letter-spacing: 5px;
     font-weight: bold;
-    
+
 }
 
-#boton-slider-1{
+#boton-slider-1 {
     justify-content: end;
     z-index: 0;
 }
-#boton-slider-2{
+
+#boton-slider-2 {
     z-index: 0;
     justify-content: start;
 }
@@ -1019,6 +1020,164 @@
     background-color: #133222;
     transition: all .5s;
 }
+
+
+
+/* BARRIOS */
+
+.encabezado-barrio {
+    height: 100vh;
+    background-image: url("../WhatsApp\ Image\ 2025-08-08\ at\ 09.10.45.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.titulo-barrio {
+    text-align: center;
+    width: 300px;
+    margin: 40px auto 60px auto;
+}
+
+.contenido-encabezado-barrio {
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-end;
+
+
+
+
+}
+
+.contenido-encabezado-barrio img {
+    height: 300px;
+}
+
+.titulo-data-barrio {
+    background-color: #1332229a;
+    width: 100%;
+    text-align: center;
+
+}
+
+.contenedor-lista-historia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.historia {
+    color: white;
+    width: 50%;
+    min-width: 200px;
+    font-size: large;
+    font-family: "2";
+    font-weight: 600;
+    text-align: start;
+
+}
+
+.caracteristicas {
+
+    width: 40%;
+    text-align: start;
+    border-left: #a8a8a8 1px solid;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+.title-caracteristicas {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline 2px #ef8937;
+}
+
+.lista-caracteristicas {
+    list-style: none;
+}
+
+.item-caracteristicas {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    justify-content: flex-start;
+}
+
+.item-caracteristicas img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contenedor-botones-barrio {
+    padding: 50px;
+    width: 100%;
+
+}
+
+.boton-barrio {
+    padding: 10px 15px;
+    border: 0;
+    height: 40px;
+    border-radius: 50px;
+    font-size: x-small;
+    font-weight: bold;
+    font-family: "1";
+    margin: 0px 10px;
+    color: #ef8937;
+}
+
+.boton-barrio:hover {
+    background-color: #ef8937;
+    color: white;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.galeria-imagenes {
+
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px;
+    grid-gap: 5px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+
+.box {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.filter{
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+.box img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box:nth-child(1) {
+    grid-column-start: span 2;
+}
+
+.box:nth-child(4) {
+    grid-column-start: span 2;
+}
+
 
 
 @media (max-width: 767px) {
